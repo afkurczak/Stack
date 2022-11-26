@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Stack;
 
 public class MenuStack {
     public static void menuStack() {
@@ -17,17 +16,15 @@ public class MenuStack {
             int MenuStackChoice = scanner.nextInt();
 
             switch (MenuStackChoice) {
-                case 1: {
-                    Stack stack = new Stack<>();
+                case 1 -> {
                     Scanner scanner1 = new Scanner(System.in);
                     String newData = scanner1.nextLine();
                     myStack.push(newData);
-                    break;
                 }
-                case 2 : {myStack.pop(); break;}
-                case 3 : {myStack.peek(); break;}
-                case 4 : {myStack.allStack(); break;}
-                case 0 : {stackMenuLoop = false; break;}
+                case 2 -> myStack.pop();
+                case 3 -> myStack.peek();
+                case 4 -> myStack.allStack();
+                case 0 -> stackMenuLoop = false;
             }
         }
     }
