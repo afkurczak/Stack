@@ -20,8 +20,7 @@ public class MyStack {
 
     public void peek() {
         if (topElement != null) {
-            StackElement stackTemp = topElement;
-            System.out.println(stackTemp.getDataElement() + " ");
+            System.out.println(topElement.getDataElement());
             } else {
             System.out.println("Stack is Empty");
         }
