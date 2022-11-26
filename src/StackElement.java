@@ -11,15 +11,7 @@ public class StackElement {
         return prevElement;
     }
 
-    public void setPrevElement(StackElement prevElement) {
-        this.prevElement = prevElement;
-    }
-
-    public String getDataElement() {
+     public String getDataElement() {
         return dataElement;
-    }
-
-    public void setDataElement(String dataElement) {
-        this.dataElement = dataElement;
     }
 }
