@@ -21,11 +21,8 @@ public class MyStack {
     public void peek() {
         if (topElement != null) {
             StackElement stackTemp = topElement;
-            //while (stackTemp != null) {
-                System.out.println(stackTemp.getDataElement() + " ");
-             //  stackTemp = stackTemp.getPrevElement();
-           // }
-        } else {
+            System.out.println(stackTemp.getDataElement() + " ");
+            } else {
             System.out.println("Stack is Empty");
         }
     }
