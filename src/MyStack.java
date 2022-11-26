@@ -14,7 +14,7 @@ public class MyStack {
         if (topElement != null) {
             topElement = topElement.getPrevElement();
         } else {
-            System.out.println("Stock is Empty");
+            System.out.println("Stack is Empty");
         }
     }
 
